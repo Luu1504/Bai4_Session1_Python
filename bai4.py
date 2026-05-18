@@ -1,0 +1,19 @@
+patient_id= input("Nhập mã bệnh nhân: ")
+
+temperature = float(input("Nhập nhiệt độ cơ thể: "))
+
+
+heart_rate = int(input("Nhập nhịp tim: "))
+
+
+print("\n--- KẾT QUẢ CHUẨN HÓA DỮ LIỆU ---")
+print("Mã bệnh nhân: " + patient_id)
+
+print("Nhiệt độ cơ thể:", temperature, "độ C")
+print("=> Kiểu dữ liệu hệ thống ghi nhận:", type(temperature))
+
+print("Nhịp tim:", temperature, "nhịp/phút")
+print("=> Kiểu dữ liệu hệ thống ghi nhận:", type(temperature))
+
+print("----------------------------------")
+print("Thông báo: Dữ liệu hợp lệ. Màn hình Monitor đã sẵn sàng kết nối!")
